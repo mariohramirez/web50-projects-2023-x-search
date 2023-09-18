@@ -27,6 +27,10 @@ header ul li a {
   margin-bottom: 32px;
 }
 
+body {
+  font-family: arial, sans-serif;
+}
+
 .main {
   width: 100%;
   display: flex;
@@ -71,6 +75,57 @@ header ul li a {
   border: 1px solid #c6c6c6;
   outline: none;
   text-decoration: none;
+}
+
+.advanced-main {
+  color: rgba(0, 0, 0, 0.72);
+}
+.advanced-main h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.advanced-main h2 {
+  color: #d93025;
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid #ebebeb;
+  padding: 8px 40px;
+}
+.advanced-main-body {
+  width: 70%;
+  padding: 8px 40px;
+}
+.advanced-main-body-fields {
+  width: 60%;
+  padding-right: 16px;
+}
+.advanced-main-body-fields div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+.advanced-main label {
+  font-size: 13px;
+}
+.advanced-main input {
+  width: 60%;
+}
+.advanced-main input:focus {
+  outline: 1px solid rgb(66, 133, 244);
+}
+.advanced-main button {
+  background: rgb(66, 133, 244);
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 12px;
+  float: right;
+  margin: 8px 0 30px 0;
+  cursor: pointer;
+}
+.advanced-main button:focus {
+  outline: none;
 }
 
 /*# sourceMappingURL=style.css.map */

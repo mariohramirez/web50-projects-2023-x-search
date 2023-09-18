@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Advanced Search</title>
-    </head>
-    <body>
-        <div>
-            <a href="index.html">Advanced search</a>
+
+<head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Google</a></li>
+        </ul>
+    </header>
+
+    <div class="advanced-main">
+        <h2>Advanced Search</h2>
+        <div class="advanced-main-body">
+            <form action="https://www.google.com/search">
+                <div class="advanced-main-body-fields">
+                    <h4>Find pages with...</h4>
+                    <div>
+                        <label for="as_q">all these words:</label>
+                        <input type="text" name="as_q" id="as_q" />
+                    </div>
+                    <div>
+                        <label for="as_epq">this exact word or phrase:</label>
+                        <input type="text" name="as_epq" id="as_epq" />
+                    </div>
+                    <div>
+                        <label for="as_oq">any of these words:</label>
+                        <input type="text" name="as_oq" id="as_oq" />
+                    </div>
+                    <div>
+                        <label for="as_eq">none of these words:</label>
+                        <input type="text" name="as_eq" id="as_eq" />
+                    </div>
+                    <button>Advanced Search</button>
+                </div>
         </div>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
         </form>
-    </body>
+    </div>
+
+</body>
+
 </html>

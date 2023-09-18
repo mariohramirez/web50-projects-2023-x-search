@@ -2,6 +2,8 @@
 $dark-grey: rgba(0, 0, 0, 0.87);
 $border-color: #e4e4e4;
 $light-grey: #f2f2f2;
+$med-gray: rgba(0, 0, 0, 0.72);
+$blue: rgb(66, 133, 244);
 
 header {
     display: flex;
@@ -35,6 +37,10 @@ header {
         height: auto;
         margin-bottom: 32px;
     }
+}
+
+body {
+    font-family: arial, sans-serif;
 }
 
 .main {
@@ -90,6 +96,69 @@ header {
             }
         }
 
+    }
+
+}
+
+.advanced-main {
+
+    color: $med-gray;
+
+    h4 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    h2 {
+        color: #d93025;
+        font-size: 20px;
+        font-weight: 400;
+        border-bottom: 1px solid #ebebeb;
+        padding: 8px 40px;
+    }
+
+    &-body {
+        width: 70%;
+        padding: 8px 40px;
+
+        &-fields {
+            width: 60%;
+            padding-right: 16px;
+
+            div {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 13px;
+            }
+        }
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    input {
+        width: 60%;
+
+        &:focus {
+            outline: 1px solid $blue;
+        }
+    }
+
+    button {
+        background: $blue;
+        color: #fff;
+        border: none;
+        padding: 8px 12px;
+        font-weight: 600;
+        font-size: 12px;
+        float: right;
+        margin: 8px 0 30px 0;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
     }
 
 }
