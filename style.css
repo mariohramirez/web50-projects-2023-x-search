@@ -18,4 +18,59 @@ header ul li a {
   color: rgba(0, 0, 0, 0.87);
 }
 
+.logo {
+  position: relative;
+}
+.logo img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 32px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+}
+.main form {
+  position: relative;
+}
+.main .form-search {
+  width: 560px;
+  border: 1px solid #e4e4e4;
+  border-radius: 24px;
+  padding: 16px 40px;
+  display: flex;
+  font-size: 16px;
+}
+.main .form-search:hover, .main .form-search:focus {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+.main .form-search:focus {
+  outline: none;
+}
+.main .buttons {
+  display: flex;
+  justify-content: center;
+}
+.main .buttons .button-google {
+  padding: 13px 19px;
+  color: rgba(0, 0, 0, 0.87);
+  border: 1px solid transparent;
+  background: #f2f2f2;
+  margin: 27px 5px 32px 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.main .buttons .button-google:hover, .main .buttons .button-google:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  outline: none;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
