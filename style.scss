@@ -1,0 +1,26 @@
+//Variables for the colors
+$dark-grey: rgba(0, 0, 0, 0.87);
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    flex-direction: row;
+
+    ul{
+        display: flex;
+        font-size: 15px;
+        
+        li{
+            margin-top: 14px;
+            margin-right: 18px;
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: $dark-grey;
+                
+            }
+        }
+    }
+
+}
